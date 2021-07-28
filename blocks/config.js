@@ -12,7 +12,7 @@ module.exports = [
                         </value>
                     </block>`
             },
-            'EEPROM_commit',
+            //'EEPROM_commit',
             {
                     xml : 
                     `<block type="EEPROM_write">

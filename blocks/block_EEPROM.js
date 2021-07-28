@@ -30,7 +30,7 @@ Blockly.Blocks['EEPROM_write'] = {
       .setCheck("Number")
       .appendField(", value");
     this.appendDummyInput()
-        .appendField("(0-254)");
+        .appendField("(0-255)");
     this.setInputsInline(true);
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
